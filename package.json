@@ -12,9 +12,7 @@
 		"format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. ."
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/adapter-netlify": "next",
-		"@sveltejs/adapter-static": "next",
 		"@sveltejs/kit": "next",
 		"@types/lodash": "^4.14.177",
 		"autoprefixer": "^10.3.7",
@@ -32,8 +30,7 @@
 		"svelte-preprocess": "^4.9.8",
 		"tailwindcss": "^2.2.16",
 		"tslib": "^2.3.1",
-		"typescript": "^4.4.3",
-		"wp-types": "^2.12.0"
+		"typescript": "^4.4.3"
 	},
 	"type": "module"
 }
