@@ -13,8 +13,8 @@
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "next",
-		"@sveltejs/adapter-netlify": "^1.0.0-next.35",
-		"@sveltejs/adapter-static": "^1.0.0-next.21",
+		"@sveltejs/adapter-netlify": "next",
+		"@sveltejs/adapter-static": "next",
 		"@sveltejs/kit": "next",
 		"@types/lodash": "^4.14.177",
 		"autoprefixer": "^10.3.7",

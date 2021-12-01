@@ -17,11 +17,6 @@ const config = {
         ssr: false,
         prerender: {
             enabled: false
-        },
-        vite: {
-            optimizeDeps: {
-                exclude: ["wpapi"]
-            }
         }
 	}
 };
