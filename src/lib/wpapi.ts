@@ -17,20 +17,22 @@ export async function getPage(i: number) {
         categories: WP_CATEGORY_ID,
         per_page: WP_PER_PAGE,
         page: String(i),
-        _fields: "id,title,link,featured_media,categories"
+        _fields: "id,title,link,featured_media,featured_image_url,categories,full_categories"
     })
 }
 
 export async function getCategories(ids: number[]) {
     return await wpapi<SlimCategory[]>("/categories", {
         include: ids.join(","),
-        _fields: "id,link,name"
+        // _fields: "id,link,name"
     })
 }
 
 export async function getMedia(ids: number[]) {
-    return await wpapi<SlimMedia[]>("/media", {
-        include: ids.join(","),
-        _fields: "id,alt_text,source_url,media_type"
-    })
+    const params = {
+        include: ids.reverse().join(","),
+        // _fields: "id,alt_text,source_url,media_type"
+    }
+    console.log({ params })
+    return await wpapi<SlimMedia[]>("/media", params)
 }

@@ -14,10 +14,11 @@ const config = {
 	kit: {
 		target: '#svelte',
 		adapter: adapter(),
-        // ssr: false,
-        // prerender: {
-        //     enabled: false
-        // }
+        ssr: true,
+        prerender: {
+            enabled: true,
+            entries: ["/"]
+        } 
 	}
 };
 
