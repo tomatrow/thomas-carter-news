@@ -23,16 +23,15 @@ export async function getPage(i: number) {
 
 export async function getCategories(ids: number[]) {
     return await wpapi<SlimCategory[]>("/categories", {
-        include: ids.join(","),
+        include: ids.join(",")
         // _fields: "id,link,name"
     })
 }
 
 export async function getMedia(ids: number[]) {
     const params = {
-        include: ids.reverse().join(","),
+        include: ids.reverse().join(",")
         // _fields: "id,alt_text,source_url,media_type"
     }
-    console.log({ params })
     return await wpapi<SlimMedia[]>("/media", params)
 }

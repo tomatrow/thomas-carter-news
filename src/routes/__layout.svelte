@@ -1,5 +1,5 @@
 <script lang="ts" context="module">
-	import '../app.css'
+    import "../app.css"
     import { installFetch } from "optional-default-site-kit/functions/request"
     import type { Load } from "@sveltejs/kit"
 

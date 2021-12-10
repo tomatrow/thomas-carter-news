@@ -1,0 +1,11 @@
+.DS_Store
+node_modules
+/build
+/.svelte-kit
+/package
+.env
+.env.*.local
+pnpm-lock.yaml
+static/assets
+/.netlify/functions*
+/.netlify/package.json
