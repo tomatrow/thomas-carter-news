@@ -30,6 +30,6 @@
 
 <style lang="postcss">
     :global(div.masonry) {
-        @apply p-4;
+        @apply p-4 w-full;
     }
 </style>

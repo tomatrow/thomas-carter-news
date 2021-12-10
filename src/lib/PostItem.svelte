@@ -8,7 +8,7 @@
 <section class="flex flex-col gap-4">
     {#if post.featured_image_url}
         <a href={post.link} target="_blank">
-            <img class="rounded" src={post.featured_image_url} alt="featured" />
+            <img loading="lazy" class="rounded" src={post.featured_image_url} alt="featured" />
         </a>
     {/if}
     {#if post.full_categories.length > 0}

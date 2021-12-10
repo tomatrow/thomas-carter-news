@@ -1,7 +1,6 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@sveltejs/adapter-netlify': next
   '@sveltejs/adapter-static': next
   '@sveltejs/kit': next
   '@types/lodash': ^4.14.178
@@ -23,7 +22,6 @@ specifiers:
   typescript: ^4.5.3
 
 devDependencies:
-  '@sveltejs/adapter-netlify': 1.0.0-next.35
   '@sveltejs/adapter-static': 1.0.0-next.21
   '@sveltejs/kit': 1.0.0-next.201_svelte@3.44.2
   '@types/lodash': 4.14.178
@@ -83,10 +81,6 @@ packages:
     resolution: {integrity: sha512-8HqW8EVqjnCmWXVpqAOZf+EGESdkR27odcMMMGefgKXtar00SoYNSryGv//TELI4T3QFsECo78p+0lmalk/CFA==}
     dev: true
 
-  /@iarna/toml/2.2.5:
-    resolution: {integrity: sha512-trnsAYxU3xnS1gPHPyU961coFyLkh4gAD/0zQ5mymY4yOZ+CYvsPqUbOFSw0aDM4y0tV7tiFxL/1XfXPNC6IPg==}
-    dev: true
-
   /@nodelib/fs.scandir/2.1.5:
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
     engines: {node: '>= 8'}
@@ -114,13 +108,6 @@ packages:
     dependencies:
       estree-walker: 2.0.2
       picomatch: 2.3.0
-    dev: true
-
-  /@sveltejs/adapter-netlify/1.0.0-next.35:
-    resolution: {integrity: sha512-3PC1RaRReu652ot+LC9EOjkebnZehdwvUm0zhPC8OFPJJccQwq6Y1kbHDeACIIFRTaKLIRBpuYh3idP6ffUGdw==}
-    dependencies:
-      '@iarna/toml': 2.2.5
-      esbuild: 0.13.15
     dev: true
 
   /@sveltejs/adapter-static/1.0.0-next.21:

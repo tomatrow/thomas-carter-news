@@ -12,7 +12,6 @@
         "format": "prettier --write --ignore-unknown  '**/*'"
     },
     "devDependencies": {
-        "@sveltejs/adapter-netlify": "next",
         "@sveltejs/adapter-static": "next",
         "@sveltejs/kit": "next",
         "@types/lodash": "^4.14.178",
